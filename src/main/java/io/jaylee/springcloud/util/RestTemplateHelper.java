@@ -100,4 +100,25 @@ public class RestTemplateHelper {
         return result;
     }
 
+    /*
+    private RestTemplateHelper restTemplateHelper;
+
+// other codes...
+
+// find by id
+UserDto userDto = restTemplateHelper.getForEntity(UserDto.class, "http://localhost:8080/users/{id}", id);
+
+// find all
+UserDto userDto = restTemplateHelper.getForList(UserDto.class, "http://localhost:8080/users");
+
+// save
+UserDto userDto = restTemplateHelper.postForEntity(UserDto.class, "http://localhost:8080/users", userDto);
+
+// update
+UserDto userDto = restTemplateHelper.putForEntity(UserDto.class, "http://localhost:8080/users/{id}", userDto, id);
+
+// delete
+restTemplateHelper.delete("http://localhost:8080/users/{id}", id);
+     */
+
 }
