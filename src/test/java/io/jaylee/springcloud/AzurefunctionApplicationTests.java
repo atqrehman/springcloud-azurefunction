@@ -8,6 +8,7 @@ class AzurefunctionApplicationTests {
 
 	@Test
 	void contextLoads() {
+		//loaded
 	}
 
 }
